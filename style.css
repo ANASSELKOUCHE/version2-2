@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+:root {
+    --myFontStyle: 'Ubuntu', sans-serif;
+    --myBlue: #68A9DA;
+    --myPink: #F4CEDC;
+    --myGrey: #E3E3E4;
+}
+
+body {
+    font-family: var(--myFontStyle);
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.containeree {
+    max-width: 1920px;
+    margin: 0 auto;
+    width: 85%;
+}
+
+.parent-promotionss {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f5f9;
+    border-radius: 20px;
+}
+
+.img-section {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(to bottom, var(--myBlue), var(--myPink));
+    border-radius: 20px;
+   
+}
+
+.bg-image {
+    position: relative;
+    border-radius: 20px;
+    background: linear-gradient(to bottom, var(--myBlue), var(--myPink));
+    width: 100%;
+    height: 100%;
+}
+
+.bg-image img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: -230px;
+    bottom: 0;
+    margin: auto;
+    z-index: 1;
+    transform :Scale(1.10);
+}
+
+.bg-image span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 20%;
+    z-index: 0;
+}
+
+.promooo-product {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 50%;
+}
+
+.titlesbiges {
+    margin-bottom: 20px;
+}
+
+.titlesbiges h3 {
+    font-size: 35px;
+    margin: 0;
+    line-height: 1.3;
+}
+
+.styless-icons {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-start;
+}
+
+.rankingg {
+    display: flex;
+    align-items: center;
+}
+
+.rankingg i {
+    color: #FFD700;
+    font-size: 16px;
+}
+
+.rankingg p {
+    margin: 0 0 0 10px;
+    color: var(--myBlue);
+}
+
+.coloroptions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.circlee {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.circlee .blue,
+.circlee .red,
+.circlee .yellow {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.circlee .blue {
+    background-color: var(--myBlue);
+    color: white;
+}
+
+.circlee .red {
+    background-color:#f85859;
+    color: white;
+}
+
+.circlee .yellow {
+    background-color:#000000 ;
+}
+
+.priceee-promo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.pricese {
+    font-size: 55px;
+    padding: 0 5px 0 0;
+}
+
+.pricese sup {
+    font-size: 16px;
+}
+
+.pricese p {
+    margin: 0;
+}
+
+.discounted-pricese {
+    text-decoration: line-through;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.bordree {
+    border: 1px solid rgb(240, 114, 231);
+    border-radius: 15px;
+    padding: 5px 10px;
+    display: inline-block;
+    font-weight: bold;
+}
